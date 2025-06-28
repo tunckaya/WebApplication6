@@ -1,0 +1,48 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar'ın genel stilini ayarlama */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #00A1FF; /* Navbar arka plan rengi */
+    position: relative; /* Butonları ortalamak için relative yapıyoruz */
+}
+
+/* Logo için stil */
+.navbar-logo {
+    height: 50px; /* Logonun yüksekliği */
+    width: auto;
+    margin-right: auto; /* Logoyu en sola alır */
+    border-radius: 10px;
+    border: 30px ;
+
+}
+
+
+button {
+    background-color: #001667;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 30px ;
+}
+
+    button:hover {
+        background-color: #04BF9D;
+    }
+
+.map {
+    width: 100%;
+    height: 90vh;
+}
+
+.jsPanel-content {
+    padding: 20px;
+}

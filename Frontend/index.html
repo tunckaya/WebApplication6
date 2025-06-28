@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turkey Map</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- OpenLayers kütüphanesi -->
+    <script src="https://cdn.jsdelivr.net/npm/ol@v10.1.0/dist/ol.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v10.1.0/ol.css">
+
+<!-- jsPanel CSS -->
+<link href="https://cdn.jsdelivr.net/npm/jspanel4@4.15.0/dist/jspanel.css" rel="stylesheet">
+<!-- jsPanel JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/jspanel4@4.15.0/dist/jspanel.js"></script>
+
+</head>
+<body>
+
+     <!-- Navbar -->
+     <nav class="navbar">
+        
+        <img src="logo.png" alt="Logo" class="navbar-logo"> <!-- Logo eklendi -->
+            <button id="addPointBtn">Add Point</button>
+            <button id="queryBtn">Query</button>
+        
+    </nav>
+
+    <!-- Haritanın geleceği alan -->
+    <div id="map" class="map"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
